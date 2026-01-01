@@ -23,6 +23,6 @@ jobs:
           cd /home/ubuntu/Node-app
           git pull origin main
           npm install
-          systemctl restart nginx
+          
           pm2 start index.js
           sudo systemctl restart nginx 
